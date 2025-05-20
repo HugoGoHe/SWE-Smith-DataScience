@@ -1,0 +1,18 @@
+type: huggingface  # Literal['huggingface']
+dataset_name: SWE-bench/SWE-smith
+split: train
+filter: ".*"
+slice: ":3"
+shuffle: true
+
+deployment:
+  type: docker
+  image: python:3.11
+     # configure instances
+    SWE-agent % sweagent run-batch \
+  --config config/config.yaml \
+  --instances.type swe_bench \
+  --instances.subset lite \
+  --instances.split dev  \
+  --instances.slice :30 \
+  --instances.shuffle=True \
