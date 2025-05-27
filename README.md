@@ -8,4 +8,4 @@
   />
 </p>
 
-This project is oriented to fine-tune an open-source AI model to specialize it in Data Science issues using a portion of the SWE-Smith dataset.
+This project is oriented to fine-tune an open-source AI model to specialize it in Data Science issues using a portion of the SWE-Smith dataset
