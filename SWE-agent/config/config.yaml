@@ -109,8 +109,8 @@ agent:
     - type: last_n_observations
       n: 5
   model:
-    name: ollama/hf.co/hugohe2003/model:Q8_0 
-    api_base: http://localhost:11434
+    name: ollama/hf.co/hugohe2003/model
+    api_base: https://swe-agent-experiments--ollama-server-ollamaserver-serve.modal.run
     per_instance_cost_limit: 0   
     total_cost_limit: 0
     per_instance_call_limit: 50
