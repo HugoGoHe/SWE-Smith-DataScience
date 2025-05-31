@@ -99,7 +99,7 @@ agent:
       USE_FILEMAP: 'true'
     enable_bash_tool: true
     parse_function:
-      type: xml_function_calling
+      type: xml_thought_action
     str_replace_editor:
       arguments:
       - name: view_range
