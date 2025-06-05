@@ -7,5 +7,5 @@
     width="200"
   />
 </p>
-
+Video to preentation: https://youtu.be/BUOzCOGusuU
 This project is oriented to fine-tune an open-source AI model to specialize it in Data Science issues using a portion of the SWE-Smith dataset
